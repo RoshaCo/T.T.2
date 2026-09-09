@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, viewport-fit=cover"
+  >
+
+  <meta
+    name="theme-color"
+    content="#0b0b0d"
+  >
+
+  <meta
+    name="description"
+    content="فقط با ۳۵ هزار تومان خرید علاوه بر دریافت کالا ، میتونی نام خودتو در لیست قرعه کشی مشاهده کنی"
+  >
+
+  <title>
+    T.T.KALAA | یک خرید کوچک، یک شانس بزرگ
+  </title>
+
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+<body>
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
+
+  <header class="site-header">
+
+    <div class="container header-inner">
+
+      <a
+        class="brand"
+        href="#"
+        aria-label="T.T.KALAA"
+      >
+        <span class="brand-main">
+          مجری برگزاری قرعه کشی
+        </span>
+
+        <span class="brand-sub">
+          T.T.KALAA
+        </span>
+      </a>
+
+      <nav
+        class="desktop-nav"
+        aria-label="منوی اصلی"
+      >
+
+        <a href="#prizes">
+          جوایز
+        </a>
+
+        <a href="#products">
+          محصولات
+        </a>
+
+        <a href="#chance">
+          شانس من
+        </a>
+
+      </nav>
+
+      <!-- اینستاگرام عمداً بدون مقصد خارجی -->
+      <a
+        class="header-instagram"
+        href="#"
+        data-instagram-disabled
+        aria-label="Instagram"
+      >
+
+        <span
+          class="instagram-icon"
+          aria-hidden="true"
+        ></span>
+
+        <span class="instagram-id">
+          t.t.kalaa
+        </span>
+
+      </a>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+    <!-- =====================================================
+         HERO
+    ====================================================== -->
+
+    <section class="hero">
+
+      <div class="container">
+
+        <div class="hero-content">
+
+          <span class="eyebrow">
+            T.T.KALAA
+          </span>
+
+          <h1>
+            یک خرید کوچک،
+            <strong>
+              یک شانس بزرگ
+            </strong>
+          </h1>
+
+          <p class="hero-text">
+            فقط با
+            <span class="highlight-gold">
+              ۳۵ هزار تومان خرید
+            </span>
+            علاوه بر دریافت کالا،
+            میتونی نام خودتو در لیست قرعه کشی مشاهده کنی.
+          </p>
+
+
+          <div
+            class="season-countdown"
+            id="countdownSeason"
+          >
+
+            <div class="countdown-label">
+              پایان قرعه‌کشی ۳۰ آذر ۱۴۰۵
+            </div>
+
+            <div class="countdown-grid">
+
+              <div class="countdown-item">
+                <strong
+                  id="countdownDays"
+                  class="countdown-days"
+                >
+                  ۰۰
+                </strong>
+
+                <small>
+                  روز
+                </small>
+              </div>
+
+              <span class="countdown-sep">
+                :
+              </span>
+
+              <div class="countdown-item">
+                <strong id="countdownHours">
+                  ۰۰
+                </strong>
+
+                <small>
+                  ساعت
+                </small>
+              </div>
+
+              <span class="countdown-sep">
+                :
+              </span>
+
+              <div class="countdown-item">
+                <strong id="countdownMinutes">
+                  ۰۰
+                </strong>
+
+                <small>
+                  دقیقه
+                </small>
+              </div>
+
+              <span class="countdown-sep">
+                :
+              </span>
+
+              <div class="countdown-item">
+                <strong id="countdownSeconds">
+                  ۰۰
+                </strong>
+
+                <small>
+                  ثانیه
+                </small>
+              </div>
+
+            </div>
+
+          </div>
+
+
+          <div class="hero-price">
+            <span>
+              قیمت هر محصول:
+            </span>
+
+            <strong>
+              ۳۵,۰۰۰ تومان
+            </strong>
+          </div>
+
+
+          <div class="hero-actions">
+
+            <a
+              class="btn btn-primary hero-btn-primary"
+              href="#products"
+            >
+              مشاهده محصولات
+            </a>
+
+            <a
+              class="btn btn-secondary hero-btn-secondary"
+              href="#chance"
+            >
+              بررسی شانس من
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         LIVE STATUS
+    ====================================================== -->
+
+    <section class="live-status-section">
+
+      <div class="container">
+
+        <div class="live-status-card">
+
+          <div class="live-status-grid live-status-rows">
+
+            <div class="status-row">
+
+              <span
+                class="status-dot status-dot-live"
+                aria-hidden="true"
+              ></span>
+
+              <span
+                class="status-text status-text-live"
+                id="liveVisitorsText"
+              >
+                همین حالا ۱۶ نفر در سایت هستند
+              </span>
+
+            </div>
+
+
+            <div class="status-row">
+
+              <span
+                class="status-dot status-dot-orange"
+                aria-hidden="true"
+              ></span>
+
+              <span
+                class="status-text"
+                id="todayPurchasesText"
+              >
+                تعداد خریدهای امروز تا این لحظه ۷
+              </span>
+
+            </div>
+
+
+            <div class="status-row">
+
+              <span
+                class="status-dot status-dot-yellow"
+                aria-hidden="true"
+              ></span>
+
+              <span
+                class="status-text"
+                id="totalPurchasesText"
+              >
+                مجموع خریدهای این دوره ۳۶۵۶
+              </span>
+
+            </div>
+
+
+            <div class="status-row">
+
+              <span
+                class="status-dot status-dot-blue"
+                aria-hidden="true"
+              ></span>
+
+              <span class="status-text">
+                هر خرید یک شانس
+              </span>
+
+            </div>
+
+
+            <div class="status-row">
+
+              <span
+                class="status-dot status-dot-red"
+                aria-hidden="true"
+              ></span>
+
+              <span class="status-text">
+                هر ۱۰۰ نفر ۱ جایزه
+              </span>
+
+            </div>
+
+
+            <div class="status-row">
+
+              <span
+                class="status-dot status-dot-gold"
+                aria-hidden="true"
+              ></span>
+
+              <span class="status-text">
+                قیمت هر محصول فقط ۳۵,۰۰۰ تومان
+              </span>
+
+            </div>
+
+          </div>
+
+
+          <div class="status-golden-opportunity">
+
+            <span class="status-text-cta">
+              فرصت طلایی
+              /
+              استقبال بیشتر یعنی جوایز بیشتر
+            </span>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PRIZES
+    ====================================================== -->
+
+    <section
+      class="prizes-section"
+      id="prizes"
+    >
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            جوایز
+          </span>
+
+          <h2>
+            جوایز این دوره
+          </h2>
+
+          <p>
+            با هر خرید، یک شانس برای حضور در قرعه‌کشی دریافت می‌کنی.
+          </p>
+
+        </div>
+
+
+        <div class="main-prize-card">
+
+          <div class="main-prize-image">
+
+            <img
+              src="pic/Im1.jpg"
+              alt="جایزه نقدی ۳۰۰ میلیون تومان"
+            >
+
+          </div>
+
+          <div class="main-prize-content">
+
+            <span class="prize-tag">
+              جایزه ویژه
+            </span>
+
+            <h3>
+              ۳۰۰/۰۰۰/۰۰۰ میلیون تومان
+            </h3>
+
+            <p>
+              جایزه نقدی ویژه این دوره
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <div class="other-prizes-grid">
+
+          <article class="prize-card">
+
+            <div class="prize-image">
+
+              <img
+                src="pic/Im5.jpg"
+                alt="ست طلا"
+              >
+
+            </div>
+
+            <div class="prize-card-content">
+
+              <h3>
+                ست طلا
+              </h3>
+
+            </div>
+
+          </article>
+
+
+          <article class="prize-card">
+
+            <div class="prize-image">
+
+              <img
+                src="pic/Im4.jpg"
+                alt="سکه بهار آزادی"
+              >
+
+            </div>
+
+            <div class="prize-card-content">
+
+              <h3>
+                سکه بهار آزادی
+              </h3>
+
+            </div>
+
+          </article>
+
+
+          <article class="prize-card">
+
+            <div class="prize-image">
+
+              <img
+                src="pic/Im7.jpg"
+                alt="تلویزیون ۶۰ اینچ"
+              >
+
+            </div>
+
+            <div class="prize-card-content">
+
+              <h3>
+                تلویزیون ۶۰ اینچ
+              </h3>
+
+            </div>
+
+          </article>
+
+
+          <article class="prize-card">
+
+            <div class="prize-image">
+
+              <img
+                src="pic/Im6.jpg"
+                alt="پلی استیشن ۵"
+              >
+
+            </div>
+
+            <div class="prize-card-content">
+
+              <h3>
+                پلی استیشن ۵
+              </h3>
+
+            </div>
+
+          </article>
+
+
+          <article class="prize-card">
+
+            <div class="prize-image">
+
+              <img
+                src="pic/Im13.jpg"
+                alt="لپ تاپ ۱۷ اینچ"
+              >
+
+            </div>
+
+            <div class="prize-card-content">
+
+              <h3>
+                لپ تاپ ۱۷ اینچ
+              </h3>
+
+            </div>
+
+          </article>
+
+
+          <article class="prize-card">
+
+            <div class="prize-image">
+
+              <img
+                src="pic/Im2.jpg"
+                alt="گوشی موبایل"
+              >
+
+            </div>
+
+            <div class="prize-card-content">
+
+              <h3>
+                گوشی موبایل
+              </h3>
+
+            </div>
+
+          </article>
+
+        </div>
+
+
+        <div class="prizes-cta">
+
+          <p>
+            برای شرکت در قرعه‌کشی، یکی از محصولات را انتخاب کن.
+          </p>
+
+          <a
+            class="btn btn-primary"
+            href="#products"
+          >
+            مشاهده محصولات
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         PRODUCTS
+    ====================================================== -->
+
+    <section
+      class="products-section"
+      id="products"
+    >
+
+      <div class="container">
+
+        <div class="section-heading">
+
+          <span class="eyebrow">
+            محصولات
+          </span>
+
+          <h2>
+            محصولات قابل خرید
+          </h2>
+
+          <p>
+            هر محصول فقط ۳۵,۰۰۰ تومان
+          </p>
+
+        </div>
+
+
+        <div class="products-grid-single">
+
+
+          <article
+            class="product-card-single"
+            data-product-id="images"
+          >
+
+            <div class="product-cover">
+
+              <img
+                src="pic/Im9.jpg"
+                alt="تصاویر ایرانی"
+                data-product-image
+              >
+
+            </div>
+
+            <div class="product-info-single">
+
+              <button
+                type="button"
+                class="product-buy-single"
+                data-buy-product="images"
+              >
+                خرید محصول
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="product-card-single"
+            data-product-id="music"
+          >
+
+            <div class="product-cover">
+
+              <img
+                src="pic/Im10.jpg"
+                alt="موسیقی ایرانی"
+                data-product-image
+              >
+
+            </div>
+
+            <div class="product-info-single">
+
+              <button
+                type="button"
+                class="product-buy-single"
+                data-buy-product="music"
+              >
+                خرید محصول
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="product-card-single"
+            data-product-id="adult"
+          >
+
+            <div class="product-cover">
+
+              <img
+                src="pic/Im12.jpg"
+                alt="کتاب بزرگسال"
+                data-product-image
+              >
+
+            </div>
+
+            <div class="product-info-single">
+
+              <button
+                type="button"
+                class="product-buy-single"
+                data-buy-product="adult"
+              >
+                خرید محصول
+              </button>
+
+            </div>
+
+          </article>
+
+
+          <article
+            class="product-card-single"
+            data-product-id="kids"
+          >
+
+            <div class="product-cover">
+
+              <img
+                src="pic/Im11.jpg"
+                alt="کتاب نوجوانان"
+                data-product-image
+              >
+
+            </div>
+
+            <div class="product-info-single">
+
+              <button
+                type="button"
+                class="product-buy-single"
+                data-buy-product="kids"
+              >
+                خرید محصول
+              </button>
+
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         TICKET CTA
+    ====================================================== -->
+
+    <section class="ticket-cta-section">
+
+      <div class="container">
+
+        <div class="ticket-cta-wrapper">
+
+          <a
+            class="btn btn-primary ticket-cta-btn"
+            href="#products"
+          >
+            بلیت ورود به قرعه‌کشی
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         TESTIMONIALS
+    ====================================================== -->
+
+    <section class="testimonials-section">
+
+      <div class="container">
+
+        <div class="testimonial-box">
+
+          <div class="testimonial-header">
+
+            <span class="testimonial-title">
+              نظرات خریداران
+            </span>
+
+          </div>
+
+
+          <div
+            class="testimonial-content"
+            id="testimonialSlider"
+          >
+
+            <div class="testimonial-slide is-active">
+
+              <span class="testimonial-name">
+                سعید از تهران
+              </span>
+
+              <p class="testimonial-text">
+                خرید انجام شد و روند ثبت خیلی ساده بود.
+              </p>
+
+            </div>
+
+
+            <div class="testimonial-slide">
+
+              <span class="testimonial-name">
+                حسین از مشهد
+              </span>
+
+              <p class="testimonial-text">
+                هم محصول رو دریافت کردم هم شانس قرعه‌کشی گرفتم.
+              </p>
+
+            </div>
+
+
+            <div class="testimonial-slide">
+
+              <span class="testimonial-name">
+                آزیتا از اصفهان
+              </span>
+
+              <p class="testimonial-text">
+                مراحل خرید سریع و راحت انجام شد.
+              </p>
+
+            </div>
+
+
+            <div class="testimonial-slide">
+
+              <span class="testimonial-name">
+                رضا از تبریز
+              </span>
+
+              <p class="testimonial-text">
+                مبلغ خرید مناسب بود و ثبت شانس هم انجام شد.
+              </p>
+
+            </div>
+
+
+            <div class="testimonial-slide">
+
+              <span class="testimonial-name">
+                سارا از شیراز
+              </span>
+
+              <p class="testimonial-text">
+                طراحی سایت ساده و قابل استفاده بود.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         CHANCE
+    ====================================================== -->
+
+    <section
+      class="chance-section"
+      id="chance"
+    >
+
+      <div class="container">
+
+        <div class="chance-card">
+
+          <div class="section-heading compact">
+
+            <span class="eyebrow">
+              شانس من
+            </span>
+
+            <h2>
+              سابقه خرید و شرایط من
+            </h2>
+
+            <p>
+              شماره موبایلی که هنگام خرید ثبت کرده‌ای را وارد کن.
+            </p>
+
+          </div>
+
+
+          <form
+            class="chance-form"
+            id="chanceForm"
+          >
+
+            <input
+              type="tel"
+              id="chanceMobile"
+              name="mobile"
+              inputmode="numeric"
+              autocomplete="tel"
+              maxlength="11"
+              placeholder="مثلاً ۰۹۱۲۱۲۳۴۵۶۷"
+              aria-label="شماره موبایل"
+            >
+
+            <button
+              type="submit"
+              class="btn btn-primary chance-submit"
+              id="chanceSubmit"
+            >
+              بررسی شانس من
+            </button>
+
+          </form>
+
+
+          <div
+            class="chance-result"
+            id="chanceResult"
+            hidden
+          ></div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         TRUST
+    ====================================================== -->
+
+    <section class="trust-section">
+
+      <div class="container">
+
+        <div class="trust-grid">
+
+          <div class="trust-item">
+
+            <span aria-hidden="true">
+              🔒
+            </span>
+
+            <strong>
+              پرداخت امن
+            </strong>
+
+            <small>
+              پرداخت از طریق زرین‌پال
+            </small>
+
+          </div>
+
+
+          <div class="trust-item">
+
+            <span aria-hidden="true">
+              🧾
+            </span>
+
+            <strong>
+              ثبت خرید
+            </strong>
+
+            <small>
+              ثبت اطلاعات خرید
+            </small>
+
+          </div>
+
+
+          <div class="trust-item">
+
+            <span aria-hidden="true">
+              🎟️
+            </span>
+
+            <strong>
+              ثبت شانس
+            </strong>
+
+            <small>
+              هر خرید یک شانس
+            </small>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =====================================================
+         FINAL CTA
+    ====================================================== -->
+
+    <section class="final-cta">
+
+      <div class="container">
+
+        <div class="final-cta-card">
+
+          <h2>
+            آماده‌ای شانس خودت را
+            <strong>
+              امتحان کنی؟
+            </strong>
+          </h2>
+
+          <p>
+            یک محصول انتخاب کن و وارد قرعه‌کشی شو.
+          </p>
+
+          <a
+            class="btn btn-primary"
+            href="#products"
+          >
+            مشاهده محصولات
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
+
+  <footer class="site-footer">
+
+    <div class="container footer-inner">
+
+      <div class="footer-row footer-row-main">
+
+        <span class="footer-brand">
+          T.T.KALAA
+        </span>
+
+        <span class="footer-desc">
+          محصولات فرهنگی دیجیتال
+        </span>
+
+      </div>
+
+
+      <div class="footer-row footer-row-links">
+
+        <!-- اینستاگرام عمداً بدون مقصد خارجی -->
+
+        <a
+          href="#"
+          data-instagram-disabled
+        >
+          اینستاگرام
+        </a>
+
+        <span class="footer-sep">
+          |
+        </span>
+
+        <a
+          href="https://wa.me/989357765956"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          واتساپ
+        </a>
+
+      </div>
+
+
+      <div class="footer-row footer-row-payment">
+
+        <span>
+          پرداخت امن با
+        </span>
+
+        <span class="payment-badge">
+          زرین‌پال
+        </span>
+
+      </div>
+
+
+      <div
+        class="footer-rules"
+        id="footerRules"
+        role="button"
+        tabindex="0"
+      >
+        قوانین و شرایط
+      </div>
+
+      <div
+        class="payment-badge"
+        id="zarinpalBadge"
+      >
+        ZarinPal
+      </div>
+
+    </div>
+
+  </footer>
+
+
+  <!-- =====================================================
+       LICENSE / RULES PAGE
+  ====================================================== -->
+
+  <div
+    class="license-page"
+    id="licensePage"
+    hidden
+  >
+
+    <button
+      type="button"
+      class="license-close"
+      id="licenseClose"
+      aria-label="بستن"
+    >
+      ×
+    </button>
+
+
+    <div class="license-content">
+
+      <h2>
+        قوانین و شرایط
+      </h2>
+
+      <p>
+        با خرید هر محصول، خرید شما در سامانه ثبت شده و مطابق شرایط دوره در قرعه‌کشی شرکت داده می‌شود.
+      </p>
+
+      <p>
+        اطلاعات خرید و شماره موبایل ثبت‌شده برای پیگیری خرید و وضعیت شانس استفاده خواهد شد.
+      </p>
+
+      <p>
+        شرایط و زمان‌بندی قرعه‌کشی مطابق اطلاعات اعلام‌شده در سایت خواهد بود.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       PURCHASE MODAL
+  ====================================================== -->
+
+  <div
+    class="modal"
+    id="purchaseModal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="modal-overlay"
+      data-close-modal
+    ></div>
+
+
+    <div
+      class="modal-box"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="purchaseModalTitle"
+    >
+
+      <button
+        type="button"
+        class="modal-close"
+        data-close-modal
+        aria-label="بستن"
+      >
+        ×
+      </button>
+
+
+      <div class="modal-content">
+
+        <span class="eyebrow">
+          خرید محصول
+        </span>
+
+        <h2 id="purchaseModalTitle">
+          تکمیل خرید
+        </h2>
+
+
+        <div
+          class="purchase-summary"
+          id="purchaseSummary"
+        ></div>
+
+
+        <div class="purchase-note">
+
+          <strong>
+            ۳۵,۰۰۰ تومان
+          </strong>
+
+          <span>
+            با خرید این محصول، یک شانس برای قرعه‌کشی دریافت می‌کنی.
+          </span>
+
+        </div>
+
+
+        <input
+          type="hidden"
+          id="purchaseProductId"
+          value=""
+        >
+
+
+        <button
+          type="button"
+          class="btn btn-primary modal-buy-button"
+          id="purchaseSubmit"
+        >
+          ادامه پرداخت
+        </button>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       PAYMENT RESULT MODAL
+  ====================================================== -->
+
+  <div
+    class="modal"
+    id="paymentResultModal"
+    aria-hidden="true"
+  >
+
+    <div
+      class="modal-overlay"
+      data-close-modal
+    ></div>
+
+
+    <div
+      class="modal-box result-modal-box"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="paymentResultTitle"
+    >
+
+      <button
+        type="button"
+        class="modal-close"
+        data-close-modal
+        aria-label="بستن"
+      >
+        ×
+      </button>
+
+
+      <div class="modal-content">
+
+        <div
+          class="result-icon"
+          id="paymentResultIcon"
+          aria-hidden="true"
+        >
+          ✓
+        </div>
+
+
+        <h2 id="paymentResultTitle">
+          نتیجه پرداخت
+        </h2>
+
+
+        <div
+          class="payment-result-content"
+          id="paymentResultContent"
+        ></div>
+
+
+        <form
+          class="post-purchase-form"
+          id="postPurchaseForm"
+        >
+
+          <input
+            type="tel"
+            id="postPurchaseMobile"
+            name="mobile"
+            inputmode="numeric"
+            autocomplete="tel"
+            maxlength="11"
+            placeholder="شماره موبایل خود را وارد کنید"
+            aria-label="شماره موبایل"
+          >
+
+          <button
+            type="submit"
+            class="btn btn-primary"
+            id="postPurchaseSubmit"
+          >
+            ثبت شماره و دریافت فایل
+          </button>
+
+        </form>
+
+
+        <div
+          class="post-purchase-result"
+          id="postPurchaseResult"
+          hidden
+        ></div>
+
+
+        <a
+          class="btn btn-primary download-button"
+          id="downloadLink"
+          href="#"
+          target="_blank"
+          rel="noopener noreferrer"
+          hidden
+        >
+          دریافت محصول
+        </a>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =====================================================
+       TOAST
+  ====================================================== -->
+
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+
+  <!-- =====================================================
+       SCRIPTS
+  ====================================================== -->
+
+  <script src="api.js"></script>
+  <script src="products.js"></script>
+  <script src="countdown.js"></script>
+  <script src="chance.js"></script>
+  <script src="payment.js"></script>
+  <script src="main.js"></script>
+
+</body>
+
+</html>
